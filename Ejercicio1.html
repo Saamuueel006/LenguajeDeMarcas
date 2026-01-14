@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+ <style>
+        dialog {
+            border: 2px solid #6a9ad1;
+            border-radius: 10px;
+            padding: 20px;
+            width: 320px;
+            background-color: #f9fbff;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+            font-family: Arial, sans-serif;
+            background-color: aqua;
+        }
+
+        dialog::backdrop {
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        dialog p {
+            margin-bottom: 15px;
+        }
+    </style>
 </head>
 <body>
     <dialog id="miDialogo">
